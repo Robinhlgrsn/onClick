@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    color: white;
+}
+
+#mainContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #131313;
+    height: 100vh;
+    width: 100vw;
+}
+
+#container{
+    background-image: linear-gradient(#71a595,#313131);
+    display: flex;
+    margin: 10px;
+    
+    
+}
+
+button{
+    background-color: #71a595ba;
+    color: white;
+    border: none;
+    margin: 10px;
+}
+
+button:hover{
+    background-color: #313131;
+
+}
